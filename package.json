@@ -1,0 +1,18 @@
+{
+  "name": "illustrator.css",
+  "version": "1.0.0",
+  "description": "Illustrator.css is a small CSS and HTML framework based on the Adobe Illustrator user interface.",
+  "main": "illustrator.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emilianoac/illustrator.css.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "Emilianoac",
+  "license": "MIT"
+}

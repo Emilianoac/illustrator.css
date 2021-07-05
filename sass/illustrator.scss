@@ -1,0 +1,21 @@
+
+/*!
+ * Illustrator.css (https://illustrator.css.emilianot.design/)
+ * Licensed under MIT ()
+ */
+ 
+
+// Fonts //
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+// Abstracts //
+@import './abstracts/variables';
+
+// Base //
+@import './base/base';
+
+// Components //
+@import './components/buttons';
+@import './components/inputs';
+@import './components/selects';
+@import './components/tabs';
