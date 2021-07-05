@@ -1,0 +1,96 @@
+
+
+// Buttons 
+
+.button {
+    font-size: 1rem;
+    border: 0;
+    cursor: pointer;
+    background: transparent;
+
+    &:focus-visible {
+        outline: 0;
+        box-shadow: 0px 0px 1px 3px rgba(30, 143, 255, 0.212);
+    }
+
+    &:disabled {
+        user-select: none; 
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+}
+
+
+// Button Primary //
+
+.button_primary {
+    font-size: 0.9rem;
+    padding: 0.2rem 0.9rem;
+    line-height: 1.1;
+    border-radius: 4px;
+    border: 1px solid var(--border-color-light);
+    background-color: var(--bg-color-dark);
+    color: var(--text-color);
+
+    &:hover {
+        background-color: var(--bg-color-medium);
+    }
+
+    &:disabled {
+          
+        &:hover {
+            background-color: unset;
+        }
+    }
+}
+
+
+// Button rounded //
+
+.button_rounded {
+    max-width: 100px;
+    width: 100%;
+    padding: 0.2em 1.3em;
+    font-size: 0.90em;
+    border-radius: 50px;
+    border: 2px solid  var(--text-color);
+    color: var(--text-color);
+    background-color: transparent;
+
+    &:hover {
+        background-color: var(--text-color);
+        color: var(--bg-color-dark);
+    }
+
+    &:disabled:hover {
+
+        &:hover {
+            background-color: transparent;
+            color: var(--text-color);
+        }
+    }
+}
+
+
+// Button Icon //
+
+.button_icon {
+    font-size: 1em;
+    padding: 0.2em 0.6em;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    color: var(--text-color);
+
+    &:hover,
+    &:focus,
+    &:focus-visible {
+        background-color: var(--bg-color-dark);
+        border: 1px solid var(--border-color-light);
+        outline: 0;
+    }
+
+    &:disabled {
+        opacity: 0.4;
+        border: 1px solid var(--border-color-light);
+    }
+}
