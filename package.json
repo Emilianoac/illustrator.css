@@ -1,6 +1,6 @@
 {
   "name": "illustrator.css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Illustrator.css is a small CSS and HTML framework based on the Adobe Illustrator user interface.",
   "main": "illustrator.css",
   "scripts": {
